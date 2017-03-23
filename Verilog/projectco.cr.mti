@@ -1,0 +1,135 @@
+F:/CSE/Project_CO/shift_left_2_jump.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/shift_left_2_jump.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_left_2_Jump
+
+Top level modules:
+	shift_left_2_Jump
+
+} {} {}} F:/CSE/Project_CO/sign_extension.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/sign_extension.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module sign_extention
+
+Top level modules:
+	sign_extention
+
+} {} {}} F:/CSE/Project_CO/mux_2_to_1.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mux_2_to_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_2_to_1
+
+Top level modules:
+	mux_2_to_1
+
+} {} {}} F:/CSE/Project_CO/mux_4_to_1.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mux_4_to_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_4_to_1
+
+Top level modules:
+	mux_4_to_1
+
+} {} {}} F:/CSE/Project_CO/mips.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mips.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} F:/CSE/Project_CO/mux_memtoreg.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mux_memtoreg.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_memtoreg
+
+Top level modules:
+	mux_memtoreg
+
+} {} {}} F:/CSE/Project_CO/controlunit.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/controlunit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controlunit
+
+Top level modules:
+	controlunit
+
+} {} {}} F:/CSE/Project_CO/shift_left_2.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/shift_left_2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_left_2
+
+Top level modules:
+	shift_left_2
+
+} {} {}} F:/CSE/Project_CO/PC.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/PC.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} F:/CSE/Project_CO/instruction_fetch.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/instruction_fetch.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instruction_fetch
+
+Top level modules:
+	instruction_fetch
+
+} {} {}} F:/CSE/Project_CO/reg_file.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/reg_file.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} F:/CSE/Project_CO/adder_PC_4.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/adder_PC_4.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_PC_4
+
+Top level modules:
+	adder_PC_4
+
+} {} {}} F:/CSE/Project_CO/mux_jump.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mux_jump.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_jump
+
+Top level modules:
+	mux_jump
+
+} {} {}} F:/CSE/Project_CO/alu_32bit.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/alu_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu_32bit
+
+Top level modules:
+	alu_32bit
+
+} {} {}} F:/CSE/Project_CO/alucontroller.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/alucontroller.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alucontroller
+
+Top level modules:
+	alucontroller
+
+} {} {}} F:/CSE/Project_CO/Instruction_decoder.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/Instruction_decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instruction_decoder
+
+Top level modules:
+	Instruction_decoder
+
+} {} {}} F:/CSE/Project_CO/adder.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+-- Compiling module ALUes
+
+Top level modules:
+	ALUes
+
+} {} {}} F:/CSE/Project_CO/memory.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} F:/CSE/Project_CO/mux_regdst.v {1 {vlog -work work -stats=none F:/CSE/Project_CO/mux_regdst.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_regdst
+
+Top level modules:
+	mux_regdst
+
+} {} {}}

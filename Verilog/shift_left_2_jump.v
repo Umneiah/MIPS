@@ -1,0 +1,12 @@
+module shift_left_2_Jump( jr, PC_4 ,jump_adress); 
+input [25:0] jr ;
+output [31:0] jump_adress;
+reg [31:0] jump_adress;
+reg [27:0] before_j_address ; 
+input [31:0] PC_4 ;
+always @(jr)
+begin
+#5 before_j_address = jr << 2;   
+#5 jump_adress <= { PC_4[31:28] , before_j_address[27:0]} ;                             
+end
+endmodule 
