@@ -1,0 +1,172 @@
+library IEEE;
+USE IEEE.numeric_std.ALL;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+entity mips is 
+end mips;
+
+architecture behave of mips is
+
+component mux_1 
+port(rt	: in	std_logic_vector(4 downto 0);
+		rd	: in	std_logic_vector(4 downto 0);
+		reg_dst	: in	std_logic_vector(1 downto 0);
+		y	: out	std_logic_vector(4 downto 0)
+	);
+end component ; 
+
+component mux_2 
+port ( alu_src  : in std_logic;
+	 read_data_2, sign_extend : in std_logic_vector (31 downto 0);
+         alu_in_2 : out std_logic_vector (31 downto 0));
+end component ;
+
+component mux_3 
+port(
+		result	: in	std_logic_vector(31 downto 0);
+		readData: in	std_logic_vector(31 downto 0);
+		memtoreg: in	std_logic_vector(1 downto 0);
+		writeData: out	std_logic_vector(31 downto 0)
+	);
+end component ;
+
+component mux_4 
+port (outPC: out std_logic_vector(31 downto 0);
+inPC: in std_logic_vector (31 downto 0); clk , reset: in std_logic);
+end component ;
+
+component mux_5 
+port ( jump  : in std_logic;
+        branch_adress,result_2: in std_logic_vector (31 downto 0);
+        before_i_address: in std_logic_vector (25 downto 0);
+         PC_in : out std_logic_vector (31 downto 0);
+         jump_address : buffer std_logic_vector(31 downto 0);
+         out8 : buffer std_logic_vector(27 downto 0);
+         before_i_28bits : buffer std_logic_vector(27 downto 0)
+         );
+end component ;
+
+component adder_1 
+ port( PC_4,out1_sll : in std_logic_vector(31 downto 0);
+         result : out std_logic_vector(31 downto 0));
+end component ;
+
+component adder_2 
+ port( outPC : in std_logic_vector(31 downto 0);
+         result_2 : out std_logic_vector(31 downto 0));
+end component ;
+
+component alucontroller 
+port (funct: in std_logic_vector (5 downto 0);
+aluop: in std_logic_vector (1 downto 0);
+alucontrol: out std_logic_vector(3 downto 0));
+end component ;
+
+component controlunit 
+port (op: IN std_logic_vector (5 downto 0);
+memtoreg: OUT std_logic_vector (1 downto 0);
+memwrite: OUT std_logic;
+branch, alusrc: OUT std_logic;
+reg_dst: OUT std_logic_vector (1 downto 0);
+writeEn: OUT std_logic;
+memread: OUT std_logic;
+jump: OUT std_logic;
+aluop: OUT std_logic_vector (2 downto 0));
+end component ;
+
+component andGate 
+port( branch, zero : in std_logic;
+            add_out : out std_logic);
+end component ;
+
+component Inst_Fetsh 
+port(out1,out6 : out std_logic_vector (5 downto 0); 
+      out2,out3,out4,out5: out std_logic_vector (4 downto 0);  
+      out7: out std_logic_vector (15 downto 0);                
+      out8 : out std_logic_vector (25 downto 0);                
+      in1: in std_logic_vector (31 downto 0));          
+end component ;
+
+component register_file 
+ port(
+    data_rs     : out std_logic_vector(31 downto 0);
+    data_rt     : out std_logic_vector(31 downto 0);
+    mux_2       : in  std_logic_vector(31 downto 0);
+    rs          : in  std_logic_vector(4 downto 0);
+    rt          : in  std_logic_vector(4 downto 0);
+    mux_0       : in  std_logic_vector(4 downto 0);
+    write_clk   : in  std_logic;
+    writeEn    : in  std_logic
+    );
+end component ;
+
+component PC_code 
+port (outPC: out std_logic_vector(31 downto 0) := "00000000000000000000000000000000" ;
+inPC: in std_logic_vector (31 downto 0); clk , reset: in std_logic);
+end component ;
+
+component memory 
+Port ( clk : in std_logic;
+addr : in std_logic_vector (31 downto 0);
+din : in std_logic_vector (31 downto 0);
+memWrite : in std_logic;
+memRead : in std_logic;
+dout : out std_logic_vector (31 downto 0));
+end component ;
+
+component extend 
+port ( slv_16  : buffer std_logic_vector(15 downto 0);
+       out_sll : buffer std_logic_vector(31 downto 0);
+       slv_32  : buffer std_logic_vector(31 downto 0)
+);
+end component ; 
+
+component alu 
+	port(readData1, mux2 : IN std_logic_vector(31 DOWNTO 0); 
+alucontrol : IN std_logic_vector(3 DOWNTO 0);
+shamt : IN std_logic_vector(4 DOWNTO 0);
+result : OUT std_logic_vector(31 DOWNTO 0);
+zero : OUT std_logic_vector
+);
+end component ;
+  
+signal alu_src, add_out, jump, memwrite, memread, branch,writeEn, zero,clk, reset : std_logic ;
+signal read_data_2, sign_extend, alu_in_2, PC_4, alu_result, branch_adress, result_2,  jump_address, out1_sll, out_sll: std_logic_vector(31 downto 0) ;
+signal before_i_address : std_logic_vector(25 downto 0) ;
+signal before_i_28bits : std_logic_vector(27 downto 0) ;
+signal out8 : std_logic_vector(27 downto 0) ;
+signal op,funct: std_logic_vector(5 downto 0) ;
+signal out1,out6 : std_logic_vector(5 downto 0) ;
+signal rt, rd, y, out2,out3,out4,out5: std_logic_vector(4 downto 0 ) ;
+signal reg_dst, result, readData,PC_in,outPC, writeData : std_logic_vector(31 downto 0 ) ;
+signal memtoreg : std_logic_vector(1 downto 0) ;
+signal aluop : std_logic_vector(2 downto 0) ;
+signal alucontrol : std_logic_vector(3 downto 0) ;
+signal readData1, mux2 : std_ulogic_vector(31 downto 0);
+signal slv_16 : std_logic_vector(15 downto 0);
+signal shamt : std_ulogic_vector(4 downto 0);
+signal out7,inIm : std_logic_vector (15 downto 0);
+begin
+
+G1: PC_code port map (PC_in, outPC, clk , reset);
+G2: inst_decoding port map(outPC, out1,out2,out3,out4,out5,out6,out7,out8);
+G3: Inst_Fetsh port map(outPC, out1,out2,out3,out4,out5,out6,out7,out8);
+G4: controlunit port map(writeEn,reg_dst,alu_src,aluop,memWrite,branch,memtoreg,memRead,jump,op); 
+G5:mux_1 port map (out3,out4,reg_dst, y); 
+G6:register_file port map (readData1,read_data_2,clk, writeEn,writeData,y,out2,out3); 
+G7:extend port map(out_sll,out1_sll,slv_16 ); 
+G8:adder_2 port map (outPC,result_2);
+G9: mux_4 port map (add_out,PC_4, alu_result,branch_adress); 
+G10:adder_1 port map (PC_4,out1_sll,result);
+G11: mux_5 port map(jump, branch_adress,result_2,before_i_address,PC_in,  jump_address,out8,before_i_28bits);
+G12: mux_2 port map( alu_src,read_data_2, sign_extend,alu_in_2); 
+G13:alucontroller port map (funct,aluop,alucontrol);
+G14: alu port map (readData1, mux2,alucontrol,shamt,result,zero);
+G15:andGate port map (branch, zero,add_out); 
+G16:memory port map (clk,addr,din,memWrite,memRead,dout);
+G17: mux_3 port map (result,readData,memtoreg,writeData);
+end behave;
+

@@ -1,0 +1,831 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/LENOVO-LAPTOP/Desktop/co project hna
+Eadder_1
+Z0 w1451255115
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 dC:/Users/LENOVO-LAPTOP/Desktop/New folder
+Z7 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd
+Z8 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd
+l0
+L7
+Vm06YZgmHIn7Yd[4i?H>kh1
+!s100 I]KhJGSW:7DeM97Q[D]of2
+Z9 OP;C;10.4a;61
+32
+Z10 !s110 1451256986
+!i10b 1
+Z11 !s108 1451256986.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd|
+Z13 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 adder_1 0 22 m06YZgmHIn7Yd[4i?H>kh1
+l13
+L12
+VG;>dP`PfHlb:aG_?Y59^72
+!s100 i>cFBGHnd6>;=KCla_B6z3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eadder_2
+Z16 w1451255145
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd
+Z18 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd
+l0
+L6
+VW[fhAJ4cLU=[DOA2]6H;43
+!s100 8]=a23X7?XD;4;fGl2AU@3
+R9
+32
+Z19 !s110 1451256987
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd|
+Z21 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd|
+!i113 1
+R14
+R15
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 adder_2 0 22 W[fhAJ4cLU=[DOA2]6H;43
+l11
+L10
+VPbFeV6=67HGk9dCZ9d?z[1
+!s100 I7klUjNEa4ac4geg::<jJ0
+R9
+32
+R19
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Ealu
+Z22 w1451255266
+R2
+R1
+R5
+R4
+R3
+R6
+Z23 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd
+Z24 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd
+l0
+L6
+V]^ZI^A<O4;NH3Go]^Ni;h3
+!s100 AlzFT3lzHk4oTM[KMO_F<1
+R9
+32
+R19
+!i10b 1
+Z25 !s108 1451256987.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd|
+Z27 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd|
+!i113 1
+R14
+R15
+Abehave
+R2
+R1
+R5
+R4
+R3
+DEx4 work 3 alu 0 22 ]^ZI^A<O4;NH3Go]^Ni;h3
+l17
+L16
+V2hU8F[^2a<0UPPJCBM`LE1
+!s100 @;imf?BR=[7:E9J=<;WHA1
+R9
+32
+R19
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R14
+R15
+Ealucontroller
+Z28 w1451255438
+R1
+R2
+R4
+R3
+R6
+Z29 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd
+Z30 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd
+l0
+L5
+VMI>OTd;l:V2P^dfO6TMHX2
+!s100 7db:eBbeeP>``QUfR3L<K0
+R9
+32
+R19
+!i10b 1
+R25
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd|
+Z32 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd|
+!i113 1
+R14
+R15
+Abehave
+R1
+R2
+R4
+R3
+DEx4 work 13 alucontroller 0 22 MI>OTd;l:V2P^dfO6TMHX2
+l12
+L11
+VdM1<[GB>U@9@0MD:@Z8cg3
+!s100 f101=S]VklkkfDNBPcPL33
+R9
+32
+R19
+!i10b 1
+R25
+R31
+R32
+!i113 1
+R14
+R15
+Eandgate
+Z33 w1451250368
+R1
+R2
+R4
+R3
+R6
+Z34 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd
+Z35 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd
+l0
+L5
+V4f[U<o7Z`kAQ?g@^^>4m81
+!s100 fBM3Oom4gVISId]dgAS]P3
+R9
+32
+R19
+!i10b 1
+R25
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd|
+Z37 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd|
+!i113 1
+R14
+R15
+Afunc
+R1
+R2
+R4
+R3
+DEx4 work 7 andgate 0 22 4f[U<o7Z`kAQ?g@^^>4m81
+l11
+L10
+V4K@7c3co7=3Ffi[bfl`UF3
+!s100 n;`8T13=Y^S9N:9ame2IL2
+R9
+32
+R19
+!i10b 1
+R25
+R36
+R37
+!i113 1
+R14
+R15
+Econtrolunit
+Z38 w1451254788
+R1
+R2
+R3
+R4
+R5
+R6
+Z39 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd
+Z40 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd
+l0
+L6
+VHo61<[`@7`RhYh]Kg;A8K3
+!s100 f6ekSXOWhkBCL[E6CgAIR0
+R9
+32
+R19
+!i10b 1
+R25
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd|
+Z42 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd|
+!i113 1
+R14
+R15
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 controlunit 0 22 Ho61<[`@7`RhYh]Kg;A8K3
+l27
+L18
+V[:_AM[2cKO8JO^Laz7lW42
+!s100 =;`kgZPfAZZL;CzQA==ZP1
+R9
+32
+R19
+!i10b 1
+R25
+R41
+R42
+!i113 1
+R14
+R15
+Eextend
+Z43 w1451255129
+R1
+R2
+R3
+R4
+R5
+R6
+Z44 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd
+Z45 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd
+l0
+L7
+VdK7;b1P3`TVdD^Uj0mA:Z1
+!s100 2g2H7eHbHiok]c>jM2:BT2
+R9
+32
+Z46 !s110 1451256988
+!i10b 1
+R25
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd|
+Z48 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd|
+!i113 1
+R14
+R15
+Asign
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 extend 0 22 dK7;b1P3`TVdD^Uj0mA:Z1
+l14
+L13
+V^I9>Bd:DfzjoLZ:fI[S>J1
+!s100 m>gF>[;Vm<D4I=?d:[DjK0
+R9
+32
+R46
+!i10b 1
+R25
+R47
+R48
+!i113 1
+R14
+R15
+Eimtest
+Z49 w1451215048
+R6
+Z50 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd
+Z51 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd
+l0
+L100
+VP3917C[aG;eXYjHdhKNcF1
+!s100 ZjADHhM`M89gDmf>gVlah2
+R9
+32
+Z52 !s110 1451215052
+!i10b 1
+Z53 !s108 1451215051.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd|
+Z55 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd|
+!i113 1
+R14
+R15
+Aimtest_bench
+DEx4 work 6 imtest 0 22 P3917C[aG;eXYjHdhKNcF1
+l120
+L103
+V9?Wg42aRKl`zm@EJ2??[K0
+!s100 GgzP:4W;j_9@XUIif1SPJ1
+R9
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R14
+R15
+Einst_decoding
+w1451237127
+R4
+R3
+R6
+Z56 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd
+Z57 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd
+l0
+L5
+VLA950m^;a>R@?fjQgl1Bz0
+!s100 ZbB_;RfGV[7kQ0ne`QciX1
+R9
+32
+!s110 1451239696
+!i10b 1
+!s108 1451239696.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd|
+Z59 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd|
+!i113 1
+R14
+R15
+Einst_fetsh
+Z60 w1451245535
+Z61 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R4
+R3
+R6
+R56
+R57
+l0
+L9
+V_?BZb>PlMf1V8VbYRMlV41
+!s100 2[BMbeiCchC_?obCIg>hP1
+R9
+32
+Z62 !s110 1451256989
+!i10b 1
+Z63 !s108 1451256989.000000
+R58
+R59
+!i113 1
+R14
+R15
+Aim
+R61
+R1
+R2
+R4
+R3
+DEx4 work 10 inst_fetsh 0 22 _?BZb>PlMf1V8VbYRMlV41
+l19
+L17
+V3R?ISoOE:GAKBOEMhh]fo1
+!s100 ^>`EV7?ad2MUcn0h2@F[I3
+R9
+32
+R62
+!i10b 1
+R63
+R58
+R59
+!i113 1
+R14
+R15
+Einstruction_fetsh
+w1451231091
+R4
+R3
+R6
+8C:/Users/LENOVO-LAPTOP/Desktop/New folder/instruction_fetsh.vhd
+FC:/Users/LENOVO-LAPTOP/Desktop/New folder/instruction_fetsh.vhd
+l0
+L5
+V85Fnf0@3XfRKG8NCXEQWh3
+!s100 2D6G=gC@DElZ@SM:zQKRg3
+R9
+32
+!s110 1451231097
+!i10b 1
+!s108 1451231097.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/instruction_fetsh.vhd|
+!s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/instruction_fetsh.vhd|
+!i113 1
+R14
+R15
+Ememory
+Z64 w1451254927
+R61
+R1
+R2
+R4
+R3
+R6
+Z65 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd
+Z66 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd
+l0
+L9
+V<AaIh3SU:0_?A]hV:I9i>1
+!s100 IgHZAW=WaZzb:Eg=6AMj@1
+R9
+32
+R10
+!i10b 1
+R11
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd|
+Z68 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R61
+R1
+R2
+R4
+R3
+DEx4 work 6 memory 0 22 <AaIh3SU:0_?A]hV:I9i>1
+l32
+L18
+V;?U2koXGhh0kIV352EjNM2
+!s100 _W^_Sb;;4J?gV8L>F@4JU3
+R9
+32
+R10
+!i10b 1
+R11
+R67
+R68
+!i113 1
+R14
+R15
+Emips
+w1451256972
+R61
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd
+FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd
+l0
+L8
+VeoT>4NDF<[K?lhj_kVFlc1
+!s100 =IPNAP4MEnFl8STOY:fcz0
+R9
+32
+!s110 1451257184
+!i10b 1
+!s108 1451257184.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd|
+!s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd|
+!i113 1
+R14
+R15
+Emux_1
+Z69 w1451234694
+R4
+R3
+R6
+Z70 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd
+Z71 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd
+l0
+L3
+VU<E6^@]:EW0S`RJl_8MQX2
+!s100 S7WHN5nL>gD0H][1]]gH]2
+R9
+32
+R46
+!i10b 1
+Z72 !s108 1451256988.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd|
+Z74 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd|
+!i113 1
+R14
+R15
+Aarch1
+R4
+R3
+DEx4 work 5 mux_1 0 22 U<E6^@]:EW0S`RJl_8MQX2
+l13
+L12
+VCL1z6BBlobF8=G=FPA3fo2
+!s100 K_zT_gn2P7ZZn?ODnJJf?2
+R9
+32
+R46
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R14
+R15
+Emux_2
+Z75 w1451247457
+R1
+R2
+R3
+R4
+R5
+R6
+Z76 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd
+Z77 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd
+l0
+L6
+Vd3<DmhaT`WeK>SN?;KdK@0
+!s100 cG^h8k6:MzD@kk`LADRKi1
+R9
+32
+R46
+!i10b 1
+R72
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd|
+Z79 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd|
+!i113 1
+R14
+R15
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 mux_2 0 22 d3<DmhaT`WeK>SN?;KdK@0
+l13
+L12
+V^C5=61G6[bc^2Y?N[o;071
+!s100 cN^SSFaG0:MEfO:k]mYQ43
+R9
+32
+R46
+!i10b 1
+R72
+R78
+R79
+!i113 1
+R14
+R15
+Emux_3
+Z80 w1451213844
+R4
+R3
+R6
+Z81 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd
+Z82 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd
+l0
+L3
+VA7z[D];1aTUYbPgCQUaBA1
+!s100 >lBXPBPVm5<Wnh47c[TWz1
+R9
+32
+R46
+!i10b 1
+R72
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd|
+Z84 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd|
+!i113 1
+R14
+R15
+Aarch1
+R4
+R3
+DEx4 work 5 mux_3 0 22 A7z[D];1aTUYbPgCQUaBA1
+l13
+L12
+VU@iEE`2WH:0_LB7NAoFMS2
+!s100 HnlL2PoWXV=m8BAff@M9=2
+R9
+32
+R46
+!i10b 1
+R72
+R83
+R84
+!i113 1
+R14
+R15
+Emux_4
+Z85 w1451249859
+R5
+R2
+R1
+R4
+R3
+R6
+Z86 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd
+Z87 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd
+l0
+L6
+VK3<z_IPVMXP?nfJE_@U9`1
+!s100 RBdH9jTZ1W2U[K_71jJ`a0
+R9
+32
+R46
+!i10b 1
+R72
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd|
+Z89 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd|
+!i113 1
+R14
+R15
+Abehave
+R5
+R2
+R1
+R4
+R3
+DEx4 work 5 mux_4 0 22 K3<z_IPVMXP?nfJE_@U9`1
+l13
+L12
+V`_Z0f]Vd5g_BS>co[C`VW3
+!s100 6b^AFFNG0Dh`gD;KIEcWj3
+R9
+32
+R46
+!i10b 1
+R72
+R88
+R89
+!i113 1
+R14
+R15
+Emux_5
+Z90 w1451249095
+R1
+R2
+R3
+R4
+R5
+R6
+Z91 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd
+Z92 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd
+l0
+L6
+V?4I:aa35aH=nN8zK^KQOX3
+!s100 =a9@KMhddSPQ[>lXoE4zK3
+R9
+32
+R46
+!i10b 1
+R72
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd|
+Z94 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd|
+!i113 1
+R14
+R15
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 mux_5 0 22 ?4I:aa35aH=nN8zK^KQOX3
+l18
+L17
+VD1]_?UkoDYCb7Na9:ez_N0
+!s100 _LYP^1IaGlT;XI>ZT2dg_3
+R9
+32
+R46
+!i10b 1
+R72
+R93
+R94
+!i113 1
+R14
+R15
+Epc
+Z95 w1451249786
+R1
+R2
+R3
+R4
+R5
+R6
+Z96 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd
+Z97 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd
+l0
+L6
+VFVhM63?:R`L6EMZOP_M]N2
+!s100 UPaTfRQd=aV2_a48>3L8A0
+R9
+32
+R62
+!i10b 1
+R63
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd|
+Z99 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd|
+!i113 1
+R14
+R15
+Apc_code
+R1
+R2
+R3
+R4
+R5
+DEx4 work 2 pc 0 22 FVhM63?:R`L6EMZOP_M]N2
+l13
+L11
+VZ8=hFXbb6?;CoNcNIda;20
+!s100 ddJFLo`Mn_5WE1SYLhbLY0
+R9
+32
+R62
+!i10b 1
+R63
+R98
+R99
+!i113 1
+R14
+R15
+Eregister_file
+Z100 w1451256273
+R5
+R4
+R3
+R6
+Z101 8C:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd
+Z102 FC:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd
+l0
+L4
+V3;fEfgDYLjN2fe83KS2ob1
+!s100 8gbOi`fFg2`HFVVF=>WJR1
+R9
+32
+R62
+!i10b 1
+R63
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd|
+Z104 !s107 C:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R4
+R3
+DEx4 work 13 register_file 0 22 3;fEfgDYLjN2fe83KS2ob1
+l23
+L19
+V_g;cha:Ve;zRWgMP_]FMi2
+!s100 2>_[z3Q:Ql5JjJI4i@?`m3
+R9
+32
+R62
+!i10b 1
+R63
+R103
+R104
+!i113 1
+R14
+R15
+Etestbench
+w1451225036
+R6
+R96
+R97
+l0
+L20
+VR7dM5mj7J8N@;ee[<G>?D3
+!s100 4<Iga=63`<Wge9^ofoabe0
+R9
+32
+!s110 1451228008
+!i10b 1
+!s108 1451228008.000000
+R98
+R99
+!i113 1
+R14
+R15

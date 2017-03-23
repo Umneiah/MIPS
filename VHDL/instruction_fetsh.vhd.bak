@@ -1,0 +1,27 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+use STD.textio.all;
+
+entity instruction_fetsh is
+port (address : in bit_vector (31 downto 0) ; instruction : out bit_vector (31 downto 0));
+end instruction_fetsh;
+
+architecture I_F of instruction_fetsh is
+type instructions is array (0 to 31) of std_logic_vector(31 downto 0 );
+ signal inst : instructions;
+begin
+process(address)
+file file_pointer: text ;     
+variable line_content : bit_vector (0 to 31);
+variable line_num : line;
+
+begin
+file_open ( file_pointer , "instructions.txt", READ_MODE);
+while not endfile(file_pointer) loop
+readline(file_pointer,line_num);
+READ (line_num,line_content);
+inst (to_integer(unsigned(address))) <= line_content;
+end loop;
+file_close(file_pointer);
+end process ;
+end I_F;

@@ -1,0 +1,261 @@
+{C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_5.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux_5
+-- Compiling architecture behave of mux_5
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity Inst_Fetsh
+-- Compiling architecture IM of Inst_Fetsh
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(44): (vcom-1272) Length of expected is 28; length of actual is 25.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(53): (vcom-1272) Length of expected is 28; length of actual is 16.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(62): (vcom-1272) Length of expected is 28; length of actual is 16.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(71): (vcom-1272) Length of expected is 28; length of actual is 16.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(78): (vcom-1272) Length of expected is 6; length of actual is 5.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(80): (vcom-1272) Length of expected is 28; length of slice name is 26.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(87): (vcom-1272) Length of expected is 6; length of actual is 5.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(89): (vcom-1272) Length of expected is 28; length of actual is 16.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/Inst_Fetsh.vhd(98): (vcom-1272) Length of expected is 28; length of actual is 26.
+
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/extend.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity extend
+-- Compiling architecture sign of extend
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder_1
+-- Compiling architecture behave of adder_1
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/adder_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder_2
+-- Compiling architecture behave of adder_2
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/controlunit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity controlunit
+-- Compiling architecture behave of controlunit
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity mips
+-- Compiling architecture behave of mips
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(155): (vcom-1141) Identifier "inst_decoding" does not identify a component declaration.
+
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): Signal "writeEn" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): Signal "aluop" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): Signal "branch" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): Signal "memtoreg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): Signal "readData1" is type ieee.std_logic_1164.STD_ULOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): Signal "clk" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): Signal "writeEn" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): Signal "out2" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): Signal "out3" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(162): Signal "add_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(162): Signal "alu_result" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(162): Signal "branch_adress" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(167): Signal "readData1" is type ieee.std_logic_1164.STD_ULOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(167): Signal "mux2" is type ieee.std_logic_1164.STD_ULOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(167): Signal "shamt" is type ieee.std_logic_1164.STD_ULOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(167): Signal "zero" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(169): (vcom-1136) Unknown identifier "addr".
+
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(169): (vcom-1136) Unknown identifier "din".
+
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(169): (vcom-1136) Unknown identifier "dout".
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(156): (vcom-1272) Length of formal "out1" is 6; length of actual is 32.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(156): (vcom-1272) Length of formal "out7" is 16; length of actual is 6.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(156): (vcom-1272) Length of formal "out8" is 26; length of actual is 16.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(156): (vcom-1272) Length of formal "in1" is 32; length of actual is 28.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): (vcom-1272) Length of formal "memtoreg" is 2; length of actual is 32.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(157): (vcom-1272) Length of formal "aluop" is 3; length of actual is 6.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(158): (vcom-1272) Length of formal "reg_dst" is 2; length of actual is 32.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(159): (vcom-1272) Length of formal "rt" is 5; length of actual is 32.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(160): (vcom-1272) Length of formal "slv_16" is 16; length of actual is 32.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(160): (vcom-1272) Length of formal "slv_32" is 32; length of actual is 16.
+
+** Error (suppressible): C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(166): (vcom-1272) Length of formal "aluop" is 2; length of actual is 3.
+
+** Error: C:/Users/LENOVO-LAPTOP/Desktop/New folder/mips.vhd(171): VHDL Compiler exiting
+
+} {14.0 31.0 32.0 33.0 34.0 35.0 58.0 59.0} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture behave of alu
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity Inst_Fetsh
+-- Compiling architecture IM of Inst_Fetsh
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd(80): (vcom-1272) Length of expected is 28; length of slice name is 26.
+
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/inst_decoding.vhd(98): (vcom-1272) Length of expected is 28; length of actual is 26.
+
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/register_file.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture behavioral of register_file
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/alucontroller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alucontroller
+-- Compiling architecture behave of alucontroller
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity memory
+-- Compiling architecture Behavioral of memory
+** Warning: C:/Users/LENOVO-LAPTOP/Desktop/New folder/memory.vhd(21): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_1
+-- Compiling architecture arch1 of mux_1
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux_2
+-- Compiling architecture behave of mux_2
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/andGate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity andGate
+-- Compiling architecture func of andGate
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_3.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_3
+-- Compiling architecture arch1 of mux_3
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/mux_4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4
+-- Compiling architecture behave of mux_4
+
+} {} {}} {C:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/LENOVO-LAPTOP/Desktop/New folder/PC_code.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PC
+-- Compiling architecture PC_code of PC
+
+} {} {}}
